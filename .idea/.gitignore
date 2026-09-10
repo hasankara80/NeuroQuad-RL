@@ -1,10 +1,41 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Ignored default folder with query files
-/queries/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-# Editor-based HTTP Client requests
-/httpRequests/
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE settings
+.idea/
+.vscode/
+
+# macOS files
+.DS_Store
+
+# MuJoCo and application logs
+MUJOCO_LOG.TXT
+*.log
+
+# Reinforcement-learning logs
+rl_logs/
+
+# Intermediate PPO checkpoints
+models/checkpoints/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Test and coverage outputs
+.coverage
+htmlcov/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

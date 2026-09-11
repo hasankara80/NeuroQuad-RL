@@ -8,6 +8,16 @@ The project combines a custom 8-DOF quadruped robot, a Gymnasium environment, PP
 
 ---
 
+## 🦿 Simulation Environment
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c0d4485e-88f0-4662-8bb1-dcaa89da13c6" 
+       alt="quadruped_environment">
+  <br>
+  <em>Figure: Deterministic PPO policy controlling the simulated quadruped during MuJoCo evaluation.</em>
+</p>
+
+---
+
 ## 🧠 Pipeline Architecture
 
 ```text
